@@ -1,0 +1,6 @@
+codeschool express course https://www.codeschool.com/courses/building-blocks-of-express-js
+server = place to store data
+server-side functions: authentication log-in/ deposits & withdrawals
+client = browser or user's computer
+client and server communicate through requests and responses (HTTP)
+route handling - what to do/ direct the flow of information
