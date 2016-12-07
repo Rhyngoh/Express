@@ -4,3 +4,13 @@ server-side functions: authentication log-in/ deposits & withdrawals
 client = browser or user's computer
 client and server communicate through requests and responses (HTTP)
 route handling - what to do/ direct the flow of information
+
+Handlebars: express-handlebars
+semantic templating, framework from JS to HTML
+Templates: outer main (head/body), inner 
+res.render renders response to a location
+{{ read
+{{{ read and render elements
+res.render("index", variable);
+index = index.handlebars
+variable must be object
