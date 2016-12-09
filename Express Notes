@@ -14,3 +14,24 @@ res.render renders response to a location
 res.render("index", variable);
 index = index.handlebars
 variable must be object
+
+.get("/api/:ani?") ? allows something to be there or not
+test with if(req.params.ani){
+	if nothing, will return false
+}
+:ani needs something, can't have nothing
+REST stateless, uniform 
+AJAX, page doesn't refresh : JS
+HTML, page refresh : HTML
+action: go to the URL+/create
+method: POST
+name: event(Needs to be called using this name)
+<form action="/create" method="POST">
+	<textarea type="text" name="event"></textarea>
+	<button type="submit">Submit</button>
+</form>
+MERN
+Mongo - Model
+Express- API 
+React - Views
+Node - Server

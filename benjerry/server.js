@@ -43,7 +43,7 @@ app.get("/icecream/:names", function(req, res) {
   console.log(theparam);
   for(var i = 0; i < icecreams.length ; i++){
     if(icecreams[i].name === req.params.names){
-      res.render("icecream", icecreams[i]);
+      return res.render("icecream", icecreams[i]);
     }
   }
   
